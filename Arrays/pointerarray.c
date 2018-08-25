@@ -2,15 +2,15 @@
 int main()
 {
     
-    int v[3] = {10, 100, 200};
+    int arr[5] = {50,100,150,200,250};
     
     
     int *ptr;
     
     
-    ptr = v;
+    ptr = arr;
     
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 5; i++)
     {
         printf("Value of *ptr = %d\n", *ptr);
         printf("Value of ptr = %p\n\n", ptr);
